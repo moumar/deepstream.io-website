@@ -34,6 +34,11 @@ The number of reconnection attempts until the client gives up and declares the c
 _Type_: Number<br>
 _Default_: `5`
 
+### maxReconnectInterval
+Specifies the maximum number of milliseconds for the reconnectIntervalIncrement. When the amount of reconnections will reach this value then reconnectIntervalIncrement will be ignored.<br>
+_Type_: Number<br>
+_Default_: `180000`
+
 ### rpcAckTimeout
 The number of milliseconds after which a RPC will error if no ack message has been received.<br>
 _Type_: Number<br>
